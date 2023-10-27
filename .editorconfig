@@ -81,3 +81,6 @@ dotnet_diagnostic.CA2215.severity = error
 dotnet_diagnostic.CA1200.severity = error
 dotnet_diagnostic.CA1204.severity = error
 dotnet_diagnostic.CA1711.severity = error
+
+# unused
+dotnet_diagnostic.S1481.severity = error
