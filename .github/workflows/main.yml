@@ -6,7 +6,18 @@ on:
       - main
 
 jobs:
+  console-app-1-unittests:
+    runs-on: ubuntu-latest
+    steps:
+      -
+        name: Checkout
+        uses: actions/checkout@v4
+      -
+        name: Run Unit Tests for TestProject1.UnitTests
+        run: dotnet test TestProject1.UnitTests/TestProject1.UnitTests.csproj
+          
   build-console-app-1:
+    needs: console-app-1-unittests
     runs-on: ubuntu-latest
     steps:
       -
