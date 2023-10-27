@@ -17,7 +17,7 @@ jobs:
         run: dotnet test TestProject1.UnitTests/TestProject1.UnitTests.csproj
 
   console-app-1-unittests2:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       -
         name: Checkout
