@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\projects\\TestDocker\\TestDocker\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
