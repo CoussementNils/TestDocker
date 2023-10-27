@@ -27,7 +27,7 @@ jobs:
         run: dotnet test TestProject1.UnitTests/TestProject1.UnitTests.csproj
           
   build-console-app-1:
-    needs: console-app-1-unittests
+    needs: [console-app-1-unittests,console-app-1-unittests2]
     runs-on: ubuntu-latest
     steps:
       -
