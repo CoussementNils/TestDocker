@@ -59,11 +59,16 @@ jobs:
         uses: docker/setup-buildx-action@v1
       -
         name: Build and test
-        run: |
-          # Add your build and test commands here
-          # For example:
-          # docker build -t myimage .
-          # docker run myimage tests
-          echo "Building and testing the Docker image"
-
-      # Add more steps as needed for your build and test process
+        uses: docker/build-push-action@v5
+        with:
+          context: ConsoleApp1/.
+          target: build
+          load: true
+      -
+        name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          context: ConsoleApp1/.
+          push: true
+          target: final
+          tags: ${{ secrets.DOCKER_USERNAME }}/testdocker:latest
