@@ -39,7 +39,7 @@ jobs:
         uses: actions/checkout@v2
        -
         name: build console app 1
-        run: dotnet run ConsoleApp1/ConsoleApp1.csproj
+        run: dotnet run --project ConsoleApp1/.
         
   build-console-app-1-dockercontainer:
     runs-on: ubuntu-latest
