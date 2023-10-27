@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build:
+  build-console-app-1:
     runs-on: ubuntu-latest
     steps:
       -
@@ -25,14 +25,14 @@ jobs:
         name: Build and test
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ConsoleApp1/.
           target: build
           load: true
       -
         name: Build and push
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ConsoleApp1/.
           push: true
           target: final
           tags: ${{ secrets.DOCKER_USERNAME }}/testdocker:latest
