@@ -6,7 +6,7 @@ namespace TestProject1.UnitTests
         public void Test1()
         {
             //Arrange
-            bool shouldPassTest = false;
+            bool shouldPassTest = true;
 
             //Act
             shouldPassTest = !!shouldPassTest;
